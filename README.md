@@ -36,3 +36,8 @@ A smart ATS (Applicant Tracking System) Resume Analyzer that evaluates resumes, 
 ## 🚀 Run Locally
 ```bash
 Open index.html in browser
+
+
+
+## 🌐 Live Demo
+👉 [Click here to try the app](https://ai-resume-analyser123.netlify.app/)
