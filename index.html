@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+    <h2>🚀 AI Resume Analyzer</h2>
+    <input type="text" id="user" placeholder="Enter your name">
+    <button onclick="login()">Enter Dashboard</button>
+</div>
+
+<script>
+function login(){
+    let user = document.getElementById("user").value;
+    if(user.trim() === ""){
+        alert("Please enter your name");
+        return;
+    }
+    localStorage.setItem("user", user);
+    window.location.href = "dashboard.html";
+}
+</script>
+
+</body>
+</html>
